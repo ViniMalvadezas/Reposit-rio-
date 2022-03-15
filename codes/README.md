@@ -17,9 +17,9 @@ Nesse arquivo nós montamos um esquema que:
 * Aprendemos a usar o comando "while".
 * ## **e agora giovanni.html**
 Esse foi o primeiro arquivo que nós criamos, onde aprendemos as coisas mais básicas como os comandos:
-* <br>;
-* <button>;
-* <script>;
+* br;
+* button;
+* script;
 * function;
 * else, if;
 * var;
