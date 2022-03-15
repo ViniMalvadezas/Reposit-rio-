@@ -15,4 +15,17 @@ Nesse arquivo nós montamos um esquema que:
 * Conta quantos números nós digitamos (desde 1 até o valor escrito);
 * Conta apenas os números primos q nós digitamos (desde 1 até o valor escrito);
 * Aprendemos a usar o comando "while".
-* ## **
+* ## **e agora giovanni.html**
+Esse foi o primeiro arquivo que nós criamos, onde aprendemos as coisas mais básicas como os comandos:
+* <br>;
+* <button>;
+* <script>;
+* function;
+* else, if;
+* var;
+* alert;
+* entre outros.
+Fizemos com esses comandos:
+  * Uma calculadora que resolve bhaskara;
+  * Um calculo de sua idade baseado no ano que estamos;
+  * Um comando que diz se nossa idade é um número par ou ímpar.
