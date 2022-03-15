@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="https://static.todamateria.com.br/upload/al/be/alberteinstein-cke.jpg" style="background-size:100%;">
+    <center>
+        <button onclick="calcAn()">Cálculo do An</button>
+        <br>
+        <br>
+        <button onclick="calcA1()">Cálculo do A1</button>
+        <br>
+        <br>
+        <button onclick="calcR()">Cálculo do r</button>
+        <br>
+        <br>
+        <button onclick="calcN()">Cálculo do n</button>
+        <br>
+        <br>
+    <input type="date">
+    <br><br>
+    <input type="email" placeholder="Digite seu email">
+    <br><br>
+    <input type="password" placeholder="Digite sua senha">
+    <br><br>
+    <a style="color:rgb(255, 255, 255)" href="https://youtu.be/vS8e5dg-UaM">Será?</a>
+    <br><br>
+    <a style="color:rgb(255, 255, 255)" href="https://youtu.be/oft9AXK2BEI">Segredo</a> 
+    <br><br>
+    <a style="color:aliceblue" href="https://youtu.be/xLzj_Lt0gOc">Eih,ih in</a>
+    </center> 
+</body>
+</html>
+<script>
+    function calcAn(){
+        var a1 = Number(prompt("Digite o valor de a1"))
+        var n = Number(prompt("Digite o valor de n"))
+        var r = Number(prompt("Digite o valor de r"))
+        var an = a1 + (n-1) * r
+        alert(an)
+    }
+    function calcA1(){
+        var an = Number(prompt("Digite o valor de an"))
+        var n = Number(prompt("Digite o valor de n"))
+        var r = Number(prompt("Digite o valor de r"))
+        var a1 = an - (n-1) * r
+        alert(a1)
+    }
+    function calcR(){
+        var an = Number(prompt("Digite o valor de an"))
+        var n = Number(prompt("Digite o valor de n"))
+        var a1 = Number(prompt("Digite o valor de a1"))
+        var r = (a1 - an) / (n-1)
+        alert(r)
+    }
+    function calcN(){
+        var an = Number(prompt("Digite o valor de an"))
+        var r = Number(prompt("Digite o valor de r"))
+        var a1 = Number(prompt("Digite o valor de a1"))
+        var n = 1+ (an - a1) / r
+        alert(n)
+    }
+</script>
